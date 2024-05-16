@@ -352,7 +352,7 @@ body {
   }
 .ceadBackGroundImg{
     width: 100%;
-    background-image: url("https://a0.muscache.com/im/pictures/ea34ac88-2977-4d01-b8a7-f56e5e5700a4.jpg?im_w=720");
+    background-image: url("https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEzMTA4NjI3OTI1MjIxNDQyOA%3D%3D/original/bc989f2d-eca8-4bcf-a9b0-b70b8e685a64.jpeg?im_w=720&im_q=highq");
     height: 300px;
     border-radius: 10px;
     background-size: cover;
@@ -360,7 +360,7 @@ body {
 }
 .ceadBackGroundImg1{
     width: 100%;
-    background-image: url("https://a0.muscache.com/im/pictures/miso/Hosting-611964103002302908/original/ede7b8fc-9f6a-40ec-8f58-45b19d941a18.jpeg?im_w=720");
+    background-image: url("https://a0.muscache.com/im/pictures/ea34ac88-2977-4d01-b8a7-f56e5e5700a4.jpg?im_w=720");
     height: 300px;
     border-radius: 10px;
     background-size: cover;
@@ -390,6 +390,8 @@ body {
     border-radius: 20px;
     font-size: 14px;
     font-weight: 500;
+    color: black;
+    /* text-decoration: none; */
   }
   .imgOver > i {
     font-size: 28px;
