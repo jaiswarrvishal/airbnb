@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#fullpage{
+    height: 1500px;
+    border: 1px solid greenyellow;
+}
+
+/* first nav */
+.firstNav{
+    border: 1px solid rgb(232, 231, 231);
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.image{
+    height: 32px;
+    width: 6.7%;
+    margin-left: 25px;
+    /* border: 1px solid red; */
+}
+.image > img{
+    height: 100%;
+    width: 100%;
+    color: #ff6984;
+}
+
+.cAndpPage{
+    margin-top: 60px;
+    /* border: 1px solid blue; */
+    /* display: flex; */
+    /* align-items: center; */
+}
+.secondNav{
+    width: 75%;
+    margin: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+}
+.secondNav > p{
+    font-size: 34px;
+    font-weight: 500;
+    margin-left: 25px;
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-bottom: 10px;
+}
+.secondNav > i{
+    /* font-size: 30px; */
+    text-align: center;
+}
+
+/* body part */
+#bodyPart{
+    /* border: 2px solid red; */
+    height: 1500px;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.leftContainer{
+    /* border: 1px solid black; */
+    width: 48%;
+}
+
+.yourTrip{
+    border-bottom: 1px solid lightgray;
+    height: 230px;
+}
+.yourTrip > p{
+    font-size: 22px;
+    font-weight: 500;
+}
+.yourTOne{
+    /* border: 1px solid red; */
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    margin-top: 20px;
+}
+.onDiv{
+    /* border: 1px solid black; */
+    height: 18%;
+    display: flex;
+    justify-content: space-between;
+}
+.onDiv > p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.onDiv > a{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+.offDiv{
+    /* border: 1px solid black; */
+    height: 18%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.offDiv > p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.offDiv > a{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.payWith{
+    /* border: 1px solid black; */
+    height: 370px;
+    margin-top: 40px;
+}
+.paywithCards{
+    /* border: 1px solid blue; */
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.paywithCards >div{
+    font-size: 20px;
+    font-weight: 500;
+}
+.cardOptions{
+    /* border: 1px solid red; */
+    width: 40%;
+    height: 40%;
+    display: flex;
+    overflow: hidden;
+    margin-top: 9px;
+}
+.cardOptions > img{
+    height: 100%;
+    width: 100%;
+}
+/* .form{
+    border-bottom: 1px solid lightgray;
+    height: 280px;
+    margin-top: 20px;
+}
+input{
+    width: 100%;
+    padding: 18px;
+    border-radius: 8px;
+    margin-top: 5px;
+    /* cursor: pointer; */
+/* } */ 
+.creditCard{
+    margin-top: 25px;
+    height: 60px;
+    border: 1px solid rgb(175, 174, 174);
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+}
+.creditCard > i{
+    margin-right: 20px;
+    font-size: 26px;
+    color: rgb(167, 167, 167);
+}
+.creditIcon{
+    display: flex;
+    width: 50%;
+    /* border: 1px solid red; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 350;
+    cursor: pointer;
+}
+.creditIcon > i{
+    font-size: 30px;
+    color: rgb(173, 172, 172);  
+}
+.cardNumberDetails{
+    height: 160px;
+    /* border: 1px solid black; */
+}
+.cardNumber{
+    border: 1px solid gray;
+    border-radius: 8px 8px 0 0;
+    height: 42%;
+    margin-top: 20px;
+}
+.cardNumber > label{
+    font-size: 12px;
+    margin-left: 12px;
+    font-weight: 500;
+    color: gray;
+}
+.cardNumber > i{
+    font-size: 10px;
+    color: gray;
+}
+.cardNumber > input{
+    width: 100%;
+    padding: 8px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+.cardExpire{
+    /* border: 1px solid gray; */
+    border-radius: 0 0 8px 8px;
+    height: 42%;
+    display: flex;
+}
+.mmyy{
+    width: 50%;
+    border: 1px solid gray;
+    border-radius: 0 0 0 8px;
+}
+.mmyy > label{
+    font-size: 13px;
+    color: gray;
+    margin-left: 8px;
+    font-weight: 500;
+}
+.mmyy > input{
+    font-size: 12px;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.cvv{
+    width: 50%;
+    border: 1px solid gray;
+    border-radius: 0 0 8px 0;
+}
+.cvv > label{
+    font-size: 13px;
+    color: gray;
+    margin-left: 8px;
+    font-weight: 500;
+}
+.cvv > input{
+    font-size: 12px;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.carHolderName{
+    margin-top: -10px;
+    height: 60px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+.carHolderName > input{
+    margin-left: 10px;
+    font-size: 18px;
+    color: gray;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.required{
+    height: 200px;
+    border-top: 1px solid lightgray;
+}
+.required > p:nth-child(1){
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.reqLeft{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.addbtn{
+    padding: 0 18px 0 18px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid rgb(213, 212, 212);
+}
+.addbtn:hover{
+    background-color: rgb(242, 241, 241);
+}
+
+.cancellation{
+    height: 170px;
+    border-top: 1px solid lightgray;
+}
+.cancellation > p:nth-child(1){
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.reqright{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+p > a{
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+
+.groundRules{
+    height: 200px;
+    border-top: 1px solid lightgray;
+}
+.groundRules > p:nth-child(1){
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.unOrderlist{
+    font-size: 18px;
+    font-weight: 350;
+    margin-top: 20px;
+}
+.pay{
+    height: 200px;
+    border-top: 1px solid lightgray;
+    margin-top: 30px;
+    font-size: 14px;
+}
+.payContent{
+    margin-top: 30px;
+}
+.payContent > u{
+    font-size: 12px;
+    font-weight: 500;
+}
+.payBtn{
+    padding: 18px;
+    background-color: #e31c5d;
+    width: 40%;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.footer{
+    height: 80px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(240, 239, 239);
+}
+
+
+/* right container */
+.rightContainer{
+    /* border: 1px solid black; */
+    width: 48%;
+}
+.card{
+    position: sticky;
+    top: 90px;
+    width: 86%;
+    margin: 50px auto;
+    height: 400px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.cardPartOne{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 90%;
+    /* border: 1px solid black; */
+    margin: 25px auto;
+}
+.cardP{
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* justify-content: space-between; */
+    margin-left: 20px;
+    height: 100px;
+    width: 64%;
+}
+.cardImage{
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    width: 25%;
+    background-image: url(https://a0.muscache.com/im/pictures/user/User-571408662/original/cfce9b01-4adf-4c35-bb0c-b7ea8c5b29b0.jpeg?im_w=240);
+    /* height: 100%; */
+    overflow: hidden;
+    object-fit: cover;
+    background-size: cover;
+}
+.cardImage > img{
+    width: 100%;
+    border-radius: 10px;
+}
+.borderBottom{
+    /* height: 10px; */
+    margin: 10px;
+    border-bottom: 1px solid lightgray;
+}
+.priceDetails > p{
+    width: 85%;
+    margin: 20px auto;
+    font-size: 22px;
+    font-weight: 500;
+}
+.pDetails{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.p1Details{
+    /* margin-bottom: 10px; */
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.pDetails > a{
+    color: black;
+}

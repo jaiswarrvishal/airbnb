@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Confirm and Pay Page</title>
+    <link rel="stylesheet" href="confirmPayPage.css" />
+    <script
+      src="https://kit.fontawesome.com/9e11c28d01.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="fullPage">
+      <!-- first nav Container -->
+      <div class="firstNav">
+        <div class="image">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/1200px-Airbnb_Logo_B%C3%A9lo.svg.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="cAndpPage">
+        <div class="secondNav">
+          <i class="fa-solid fa-chevron-left"></i>
+          <p>Confirm and pay</p>
+        </div>
+      </div>
+
+      <div id="bodyPart">
+        <!-- Left Container -->
+        <div class="leftContainer">
+          <div class="yourTrip">
+            <p>Your trip</p>
+            <div class="yourTOne">
+              <div class="onDiv">
+                <p>Dates</p>
+                <a href="#">Edit</a>
+              </div>
+              <p>2-7 Jun</p>
+              <div class="offDiv">
+                <p>Dates</p>
+                <a href="#">Edit</a>
+              </div>
+              <p>1 guest</p>
+            </div>
+          </div>
+          <div class="payWith">
+            <div class="paywithCards">
+              <div>
+                <p>Pay with</p>
+              </div>
+              <div class="cardOptions">
+                <img
+                  src="https://a0.muscache.com/airbnb/static/packages/assets/frontend/legacy-shared/svgs/payments/logo_visa.0adea522bb26bd90821a8fade4911913.svg"
+                  alt=""
+                />
+                <img
+                  src="https://a0.muscache.com/airbnb/static/packages/assets/frontend/legacy-shared/svgs/payments/logo_mastercard.f18379cf1f27d22abd9e9cf44085d149.svg"
+                  alt=""
+                />
+                <img
+                  src="https://a0.muscache.com/airbnb/static/packages/assets/frontend/legacy-shared/svgs/payments/logo_amex.84088b520ca1b3384cb71398095627da.svg"
+                  alt=""
+                />
+                <img
+                  src="https://a0.muscache.com/airbnb/static/packages/assets/frontend/legacy-shared/svgs/payments/logo_rupay.f419bf8f3062eb6d2408393354129ba8.svg"
+                  alt=""
+                />
+                <img
+                  src="https://a0.muscache.com/airbnb/static/packages/assets/frontend/legacy-shared/svgs/payments/logo_upi.1762e17397c0d6e85fb10050020d93f4.svg"
+                  alt=""
+                />
+                <img
+                  src="https://a0.muscache.com/airbnb/static/packages/assets/frontend/legacy-shared/svgs/payments/logo_dinersclub.0e75154d53aa4800c036282b8e189999.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <!-- <div class="form">
+                <form action="">
+                    <input type="text" placeholder="Credit or debit card" /> <br>
+                    <input type="number" placeholder="Card number"/><br>
+                    <input type="text" placeholder="expiraion" /><br>
+                    <input type="text" placeholder="Card holder name" />
+                </form>
+            </div> -->
+            <div class="creditCard">
+              <div class="creditIcon">
+                <i class="fa-regular fa-credit-card"></i>
+                <p>Credit and debit card</p>
+              </div>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="cardNumberDetails">
+              <div class="cardNumber">
+                <label for="cn">Card Number</label>
+                <i class="fa-solid fa-lock"></i><br />
+                <input
+                  type="number"
+                  id="cn"
+                  placeholder="1234 5678 9012 3456"
+                />
+              </div>
+              <div class="cardExpire">
+                <div class="mmyy">
+                  <label for="expiraion">Expiration</label><br />
+                  <input type="text" id="expiraion" placeholder="MM/YY" />
+                </div>
+                <div class="cvv">
+                  <label for="digits">CVV</label><br />
+                  <input type="number" id="digits" placeholder="3 digits" />
+                </div>
+              </div>
+            </div>
+            <div class="carHolderName">
+              <input type="text" placeholder="Cardholder name" />
+              <!-- <p>Cardholder name</p> -->
+            </div>
+          </div>
+          <div class="required">
+            <p>required for ypur trip</p>
+            <div class="reqLeft">
+              <p>
+                <b>Phone number</b><br />
+                Add and confirm your phone number to get trip updates.
+              </p>
+              <button class="addbtn">Add</button>
+            </div>
+          </div>
+          <div class="cancellation">
+            <p>Cancellation policy</p>
+            <div class="reqRight">
+              <p>
+                <br />
+                Cancel before 26 May for a partial refund. After that, the
+                reservation is non-refundable. <a href="#">Learn more</a>
+              </p>
+            </div>
+          </div>
+          <div class="groundRules">
+            <p>Ground rules</p>
+            <div>
+              <p>
+                <br />
+                We ask every guest to remember a few simple things about what
+                makes a great guest.
+              </p>
+            </div>
+            <div class="unOrderlist">
+              <p>- Follow the house rules</p>
+              <p>- Treat your Host’s home like your own</p>
+            </div>
+          </div>
+          <div class="pay">
+            <div class="payContent">
+              By selecting the button below, I agree to the
+              <u>Host's House Rules, Ground rules for guests, Airbnb's</u>
+              Rebooking and Refund Policy and that Airbnb can
+              <u>charge my payment method</u> if I’m responsible for damage.
+            </div>
+            <button class="payBtn">Confirmed and pay</button>
+          </div>
+        </div>
+        <!-- Right Container -->
+        <div class="rightContainer">
+          <div class="card">
+            <div class="cardPartOne">
+                <div class="cardImage">
+                    <!-- <img src="https://a0.muscache.com/im/pictures/user/User-571408662/original/cfce9b01-4adf-4c35-bb0c-b7ea8c5b29b0.jpeg?im_w=240" alt="cardImage" /> -->
+                </div>
+                <div class="cardP">
+                    <p><b>Zeel by the Lake- 4-BDR pool villa in Igatpuri</b></p>
+                    <p>Entire home</p>
+                </div>
+            </div>
+            <div class="borderBottom"></div>
+            <div class="priceDetails">
+                <p>Price details</p>
+                <div class="pDetails">
+                    <p>₹44,542 x 5 nights</p>
+                    <p>₹2,22,710</p>
+                </div>
+                <div class="pDetails">
+                    <a href="#">Long stay discount</a>
+                    <p>-₹89,084</p>
+                </div>
+                <div class="pDetails">
+                    <a href="#">Long stay discount</a>
+                    <p>₹24,052.68</p>
+                </div>
+                <div class="borderBottom"></div>
+                <div class="pDetails">
+                    <p>Total (INR)</p>
+                    <p>₹1,57,678.68</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Container -->
+      <div class="footer">© 2024 Airbnb, Inc. · Privacy · Terms · Sitemap · Company details</div>
+    </div>
+  </body>
+</html>
